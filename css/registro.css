@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #F4FBFF url(images/img01.jpg) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #405A67;
+}
+
+
+/* encabezado de las paginas */
+.encabezado_pagina{
+font-family: Arial;font-size: 16px;font-weight: bolder;color: #ffffff;
+background-color: #6b6b6b;
+border-top: 1px solid #4a4a4a;
+}
+
+/* zona about */
+.about_pagina{
+font-family: Arial;font-size: 12px;font-weight: normal;color: #999999;
+border-top: 1px solid #0000CD;
+}
+
+
+/*formato para los textos a mostrar en las paginas */
+
+
+/*especifica un color de fondo para cuando un campo no es valido */
+.error_tr {	background-color: #FFCC00; }
+
+.bordes_cuadro_listado {
+border-top:1px solid #333333;
+border-left:1px solid #333333;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+}
+
+
+
+
+input, textarea {
+    padding: 1px 4px;
+    border: 1px solid #6b6b6b;
+    font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #6B6B6B;
+
+}
+
+a {	text-decoration: none; border: 1px solid White;color: #595959; }
+a:link {text-decoration: none; }
+a:Active {text-decoration: none; }
+a:Visited {text-decoration: none;}
+a:hover {	text-decoration: underline; border: 1px solid #ABC1DE;	background-color: #DFDFDF;	color: #7D7D7D;	border-bottom: 1px solid #ABC1DE; }
+
+/* tooltips*/
+
+a.Ntooltip {
+position: relative; /* es la posición normal */
+text-decoration: none !important; /* forzar sin subrayado */
+color:#0080C0 !important; /* forzar color del texto */
+font-weight:bold !important; /* forzar negritas */
+}
+
+a.Ntooltip:hover {
+z-index:999; /* va a estar por encima de todo */
+background-color:#000000; /* DEBE haber un color de fondo */
+}
+
+a.Ntooltip span {
+display: none; /* el elemento va a estar oculto */
+}
+
+a.Ntooltip:hover span {
+display: block; /* se fuerza a mostrar el bloque */
+position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+top:2em; left:2em; /* donde va a estar */
+width:250px; /* el ancho por defecto que va a tener */
+padding:5px; /* la separación entre el contenido y los bordes */
+background-color: #0080C0; /* el color de fondo por defecto */
+color: #FFFFFF; /* el color de los textos por defecto */
+}
+
+legend {
+  padding: 4px 10px;
+  background:#000;
+ 
+  border:1px solid #FFFFFF;
+  color:#FFFFFF;
+  font-size:90%;
+  text-align:right;
+  }
+
+
+
+
+

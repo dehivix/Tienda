@@ -1,0 +1,192 @@
+/*este es la hoja de estilo de la pantalla de bienvenida*/
+/*Autor: Eliezer Romero*/
+
+.header-barra2 {
+    background-color: #00A0E6;
+}
+
+.contenedor-header {
+    background-color: #087FE7;
+}
+
+body,BODY {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #666666;
+    SCROLLBAR-ARROW-COLOR: #CCCCCC;
+    SCROLLBAR-BASE-COLOR: #0C376A
+}
+
+
+a,A,a:link,a:visited,a:hover,a:active{
+FONT-FAMILY: Arial;
+COLOR: #2F88F2;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+/*FONT-SIZE: 8pt*/
+
+}
+
+.header-barra1 {
+    background-color: #ffffff; /*#f0037f;*/
+}
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: #666666;
+    PADDING: 0px;
+    FONT-STYLE: none;
+    background-color: #ffffff;
+    TEXT-DECORATION: none;
+}
+
+
+.header-barra1-text,header-barra1-text:link,header-barra1-text:visited,header-barra1-text:active,header-barra1-text:hover,header-barra1-text a,header-barra1-text A
+{
+Z-INDEX: 1000;
+PADDING: 0px;
+FONT-FAMILY: Arial;
+COLOR: #0B3A8B;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+FONT-SIZE: 10pt
+}
+
+.menu-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #4163BD;
+    font-weight: bold;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #4163BD;
+    border-right-color: #4163BD;
+    border-bottom-color: #4163BD;
+    border-left-color: #4163BD;
+}
+.body-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #666666;
+}
+.body-text a{
+FONT-FAMILY: Arial;
+COLOR: #2F88F2;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+FONT-SIZE: 8pt
+
+}
+.menu-box {
+
+}
+
+.menu-box-separator{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: #CCCCCC;
+}
+
+
+.header-barra2-text,header-barra2-text:link,header-barra2-text:visited,header-barra2-text:active,header-barra2-text:hover,header-barra2-text a
+{
+Z-INDEX: 1000;
+PADDING: 0px;
+FONT-FAMILY: Arial;
+COLOR: #FFFFFF;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+FONT-SIZE: 8pt
+}
+
+.header-barra2-text a
+{
+DISPLAY: BLOCK;
+TEXT-INDENT: 0px;
+COLOR: #FFFFFF;
+TEXT-DECORATION: none;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+FONT-SIZE: 8pt
+}
+.header-barra1-strong-text {
+
+Z-INDEX: 1000;
+PADDING: 0px;
+FONT-FAMILY: Arial;
+COLOR: #FFFFFF;
+TEXT-DECORATION: none;
+FONT-STYLE: none;
+FONT-WEIGHT: bold;
+FONT-SIZE: 9pt
+}
+.page-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #4163BD;
+    font-weight: bold;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #4163BD;
+    border-right-color: #4163BD;
+    border-bottom-color: #4163BD;
+    border-left-color: #4163BD;
+}
+
+.page-title-no-underline {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #4163BD;
+    font-weight: bold;
+}
+
+.dialogTitle {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #4163BD;
+    font-weight: bold;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #4163BD;
+    border-right-color: #4163BD;
+    border-bottom-color: #4163BD;
+    border-left-color: #4163BD;
+}
+
+input, textarea {
+    padding: 2px 5px;
+    border: 1px solid #EBEBEB;
+    font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #6B6B6B;
+
+}
+a:hover {background:#ffffff; text-decoration:none;} /*BG color is a must for IE6*/
+a.tooltip span {display:none; padding:2px 3px; margin-left:8px; width:130px;}
+a.tooltip:hover span{display:inline; position:absolute; background:#ffffff; border:1px solid #cccccc; color:#6c6c6c;}
+

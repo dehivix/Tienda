@@ -1,0 +1,12 @@
+INSERT INTO  `curso_php`.`usuarios` (
+`id` ,
+`nombre` ,
+`cedula` ,
+`email` ,
+`direccion` ,
+`username` ,
+`clave`
+)
+VALUES (
+'1',  'dehivis perez',  '20363511',  'oliver0506@hotmail.com',  'san juan ',  'dehivis',  '123'
+);

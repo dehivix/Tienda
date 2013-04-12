@@ -1,0 +1,6 @@
+CREATE TABLE  `curso_php`.`articulos` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`nombre` VARCHAR( 20 ) NOT NULL ,
+`descripcion` VARCHAR( 50 ) NOT NULL ,
+`precio` INT NOT NULL
+) ENGINE = MYISAM

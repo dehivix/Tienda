@@ -1,0 +1,100 @@
+/*
+	HOJA DE ESTILO CSS
+	datos para el diseñor del foro bachilleres 
+	Eliezer Romero
+	Dehivis Perez
+	Yhonny Perez
+*/
+
+/*margenes del cuerpo de pagina*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #F4FBFF url(images/img01.jpg) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #405A67;
+}
+
+
+/* encabezado de las paginas */
+.encabezado_pagina{
+font-family: Arial;font-size: 16px;font-weight: bolder;color: #ffffff;
+background-color: #6b6b6b;
+border-top: 1px solid #4a4a4a;
+}
+
+/* zona about */
+.about_pagina{
+font-family: Arial;font-size: 12px;font-weight: normal;color: #999999;
+border-top: 1px solid #0000CD;
+}
+
+
+/*formato para los textos a mostrar en las paginas */
+.titulo_sadu {font-family: Arial;font-size: 16px;font-weight: bolder;color: #52646F;}
+.titulo {font-family: Arial;font-size: 16px;font-weight: bolder;color: #EFEFEF;}
+.subtitulo {font-family: Arial;font-size: 16px;font-weight: bolder;color: #6b6b6b;}
+.contenido {font-family: Arial;font-size: 12px;color: #353535;}
+.contenido a {font-family: Arial;font-size: 12px;color: #677785; text-decoration: none; font-weight: bold;}
+.contenido a:hover {color: #0000CD; text-decoration: underline;}
+
+/*especifica un color de fondo para cuando un campo no es valido */
+.error_tr {	background-color: #FFCC00; }
+
+.bordes_cuadro_listado {
+border-top:1px solid #333333;
+border-left:1px solid #333333;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+}
+
+
+
+
+.tool_buttons a {
+	text-decoration: none; border: 1px solid White;	font-family: arial;	font-size: 14px;	
+	padding-top: 40px;	padding-left: 4px;	padding-right: 4px;		margin-right: 5px;	
+	color: #646464;
+	width: 100%;
+}
+
+
+
+
+/* propiedades CSS para el texto mostrado en el chat */
+
+
+
+/* propiedades css para los botones de la toolbar */
+.boton_inicio{ background-image: url(../../estilo/imagenes/icon_home.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_salir{	background-image: url(../../estilo/imagenes/icon_salir.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_blogs{	background-image: url(../../estilo/imagenes/icon_blogs.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_foros{	background-image: url(../../estilo/imagenes/icon_foros.png);	background-repeat: no-repeat;	background-position: center;	}
+
+
+.boton_nuevo_tema{	background-image: url(../../estilo/imagenes/icon_nuevo_tema.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_modificar_tema{	background-image: url(../../estilo/imagenes/icon_modificar_tema.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_eliminar_tema{	background-image: url(../../estilo/imagenes/icon_eliminar_tema.png);	background-repeat: no-repeat;	background-position: center;	}
+.boton_ver_tema{	background-image: url(../../estilo/imagenes/icon_ver_tema.png);	background-repeat: no-repeat;	background-position: center;	}
+
+
+
+
+/* parte del footer*/
+
+#promo { clear: both; border-top: 3px solid #6E6E6E; background: #505050 url(../images/footer.gif) no-repeat right top; color: #ccc; padding: 0 0 0 0; }
+	#promo h2 { color: #fff; }
+	#promo a { color: #D9EAF9; border-bottom: 1px dotted #808080; }
+	.col { float: left; width: 280px; margin: 0 30px 20px 0; }
+		.last { margin: 0; }
+#footer { clear: both; padding: 15px 0; font-size: .84em; color: #808080; border-top: 1px dotted #666; }
+.wrap { margin: 0 auto; width: 900px; }
+
+input, textarea {
+    padding: 1px 4px;
+    border: 1px solid #6b6b6b;
+    font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #6B6B6B;
+
+}

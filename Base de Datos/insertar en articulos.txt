@@ -1,0 +1,9 @@
+INSERT INTO  `curso_php`.`articulos` (
+`id` ,
+`nombre` ,
+`descripcion` ,
+`precio`
+)
+VALUES (
+'1',  'computadora ibm',  '2gb de ram, monitor lcd, teclado y mouse',  '2500'
+);
